@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: url(../Images/banner.jpg) no-repeat center / cover;
+}
+
+/* common css ends */
+
+.form-container{
+    width: 400px;
+    padding: 20px;
+    border: 1px solid #5758BB;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: rgba(165, 97, 182, 0.7);
+    border: none;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 1px 13px 4px rgba(184,171,184,1);
+    -moz-box-shadow: 0px 1px 13px 4px rgba(184,171,184,1);
+    box-shadow: 0px 1px 13px 4px rgba(184,171,184,1);
+}
+.form-container form{
+    text-align: center;
+    padding-bottom: 20px;
+}
+input{
+    width: 150px;
+    margin-left: 20px;
+    line-height: 35px;
+    border: 1px solid #889495;
+    outline: none;
+    border-radius: 20px;
+    padding-left: 10px;
+    font-size: 16px;
+    
+    background: rgba(192, 210, 230, 0.4);
+}
+small{
+    color: red;
+}
+h2{
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 700;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    color: #fff;
+    letter-spacing: 2px;
+}
+.input-mail{
+    width: 333px;
+    margin-top: 20px;
+}
+.input-box{
+    width: 10px;
+    border: none;
+    outline: none;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+span{
+    font-size: 20px;
+    color: aliceblue;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: #49BEE2;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+button{
+    width: 230px;
+    line-height: 42px;
+    border: none;
+    outline: none;
+    margin-top: 15px;
+    text-transform: uppercase;
+    color: #fff;
+    background: #00EEFB;
+    font-size: 20px;
+    border-radius: 20px;
+    transition: all linear 0.4s;
+    -webkit-transition: all linear 0.4s;
+    cursor: pointer;
+}
+button:hover{
+    background: #EE5A24;
+    -webkit-box-shadow: 0px -7px 5px 0px rgba(191,181,191,1);
+    -moz-box-shadow: 0px -7px 5px 0px rgba(191,181,191,1);
+    box-shadow: 0px -7px 5px 0px rgba(191,181,191,1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

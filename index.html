@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@500;600;700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <div class="form-container">
+        <form action="">
+            <h2>register</h2>
+            <div class="form-group">
+                <input type="text" placeholder="First Name" id="fName">
+                <small id="fnameErr"></small>
+                <input type="text" placeholder="Last Name" id="lName">
+                <small id="lnameErr"></small>
+            </div>
+            <div class="form-group">
+                <input type="email" placeholder="Email" class="input-mail" id="email">
+                <small id="emailErr"></small>
+            </div>
+            <div class="form-group">
+                <input type="password" placeholder="Password" class="input-mail" id="pass">
+                <small id="passErr"></small>
+            </div>
+            <div class="form-group">
+                <input type="password" placeholder="Confirm Password" class="input-mail" id="rePass">
+                <small id="rePassErr"></small>
+            </div>
+            <div class="form-group">
+                <input type="checkbox" class="input-box" id="rePass">
+                <span>I accept <a href="#">terms of use</a></span>
+            </div>
+            <button type="submit" onclick="return subm();">Register now</button>
+        </form>
+    </div>
+    
+    
+    
+    
+    
+    
+    <script src="JS/custom.js"></script>
+</body>
+</html>
